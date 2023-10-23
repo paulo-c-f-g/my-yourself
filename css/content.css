@@ -1,0 +1,24 @@
+.content {
+    margin: 0;
+}
+
+.content__container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--default-text-color);
+
+}
+
+.content__image {
+    width: 150px;
+    height: 150px;
+    margin: 2rem 0;
+}
+
+.content__image--round-border {
+    border-radius: 50%;
+}
