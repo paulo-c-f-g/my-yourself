@@ -10,15 +10,29 @@
     justify-content: center;
     text-align: center;
     color: var(--default-text-color);
+    padding: 1rem;
 
 }
 
 .content__image {
-    width: 150px;
-    height: 150px;
-    margin: 2rem 0;
+    width: 125px;
+    height: 125px;
+    margin: 2rem 0 1rem;
 }
 
 .content__image--round-border {
     border-radius: 50%;
+}
+
+.content__text-title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.content__text-paragraph {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0 1rem 2rem;
+    
 }
