@@ -40,12 +40,11 @@
 
 .content__link-container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    width: 100%;
     text-align: center;
     max-width: 800px;
-    row-gap: 40px;
 }
 
 .content__link {
@@ -62,6 +61,7 @@
     flex-basis: 100%;
     text-align: left;
     padding: 1.5rem;
+    margin: 1rem;
 }
 
 .content__link-text{
@@ -76,3 +76,17 @@
     font-weight: 600;
     margin: 0 0 1rem;
 } 
+
+@media (min-width: 700px){
+
+    .content__link-container {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .content__link--box {
+        flex-basis: 30%;
+
+    }
+
+}
