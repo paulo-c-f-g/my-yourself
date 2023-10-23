@@ -64,6 +64,12 @@
     margin: 1rem;
 }
 
+.content__link--box:hover {
+    border-color: var(--content-link-box-border-hover-color);
+    color: var(--content-link-box-border-hover-color);
+}
+
+
 .content__link-text{
 
     font-size: 1.25rem;
@@ -78,6 +84,11 @@
 } 
 
 @media (min-width: 700px){
+
+    .content__image {
+        width: 200px;
+        height: 200px;
+    }
 
     .content__link-container {
         flex-wrap: wrap;
