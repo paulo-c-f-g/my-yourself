@@ -18,7 +18,7 @@
 .content__image {
     width: 125px;
     height: 125px;
-    margin: 1.5rem 0 ;
+    margin: 1rem 0 ;
 }
 
 .content__image--round-border {
@@ -92,9 +92,9 @@
     }
 
     .content__text-title {
-        font-size: 3.5rem;
+        font-size: 3rem;
         letter-spacing: 0.15rem;
-    } 
+    }
 
     .content__link-container {
         flex-wrap: wrap;
